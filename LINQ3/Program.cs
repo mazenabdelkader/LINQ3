@@ -1,4 +1,4 @@
-﻿
+
 using System.Numerics;
 using System.Threading;
 using Demo01.Data;
@@ -141,9 +141,27 @@ namespace LINQ3
             //            select new { a, b };
 
          //6 
-         //??
+            //var result = from customer in Customers
+   //             from order in customer.Orders
+   //             where order.Total<500.00m
+   //             select order;
+
+
+
+   //foreach (var item in result)
+   //{
+   //    Console.WriteLine(item);
+   //}
          ////7
-         //??
+            //var result = from customer in Customers
+   //             from order in customer.Orders
+   //             where order.OrderDate.Year >= 1998
+   //               select order;
+
+   //foreach (var item in result)
+   //{
+   //    Console.WriteLine(item);
+   //}
             #endregion
         }
                 }
